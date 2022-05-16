@@ -36,10 +36,10 @@ GROUP = os.environ.get("GROUP", "demusplace")
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
-
-# ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "0"))
-FORCE_SUB_GROUP1 = int(os.environ.get("FORCE_SUB_GROUP1", "0"))
+
+#PROTECT
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
