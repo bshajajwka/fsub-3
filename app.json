@@ -66,6 +66,10 @@
       "description": "Masukan Username dari Group anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
       "value": "demusplace",
       "required": false
+   },
+    "PROTECT_CONTENT": {
+      "description": "Isi True Jika Ingin Untuk Mencegah File Di Teruskan Oleh Orang Lain or False Untuk mematikan ",
+      "value": "False"
    } 
   },
   "addons": [
